@@ -1,0 +1,31 @@
+.componentWrap {
+	width: 500px;
+	margin-left: 150px;
+	padding: 0;
+	display: table;
+}
+.componentWrap > * {
+	display: table-cell;
+	text-align: center;
+	line-height: 38px;
+	vertical-align: top;
+}
+.componentWrap > label{
+	width: 150px;
+}
+.componentWrap .selectInput{
+	height: 38px;
+	border: 1px solid #000;
+	text-align: left;
+	padding-left: 10px;
+}
+.componentWrap .selectOption li{
+	border: 1px solid #000;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 38px;
+}
+.componentWrap .selectOption li:hover{
+	background: pink;
+	cursor: pointer;
+}

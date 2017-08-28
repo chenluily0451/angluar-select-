@@ -1,0 +1,4 @@
+<h1>组件：</h1>
+<form [formGroup]="myForm">
+	<app-select formControlName="sex" [defaultValue]="sex" (childEvent) = "getChildEvent($event)" [label]="'下拉框'"></app-select>
+</form>

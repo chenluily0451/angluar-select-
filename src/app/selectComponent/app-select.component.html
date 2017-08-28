@@ -1,0 +1,9 @@
+<div class='componentWrap'>
+	<label>{{label}}:</label>
+	<div class="selectWrap">
+		<div class="selectInput" (click)="displaySelect()">{{defaultSelectValue}}</div>
+		<ul class="selectOption" [hidden]="isHideSelect">
+			<li *ngFor="let li of dataSource" (click)="selectValue(li)">{{li.value}}</li>
+		</ul>
+	</div>
+</div>
