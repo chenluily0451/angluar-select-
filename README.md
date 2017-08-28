@@ -4,5 +4,4 @@
 2. 使用 NG_VALUE_ACCESSOR formcontrol进行传值
 3. 启动 npm run build
 待续。。
-![](1.png)
-# angluar-select
+![](lu.png)
